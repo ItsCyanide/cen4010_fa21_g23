@@ -1,0 +1,7 @@
+.cardbg {
+    background-color: #2e2e2e !important; /*needed so cards stand out over the background, no other way to override bg-dark class*/
+}
+
+img {
+    width: 100%; /*Set img width to 100% so it can scale prorperly as the screen size changes*/
+}
