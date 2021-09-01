@@ -1,0 +1,72 @@
+html {
+    background-color: whitesmoke;
+}
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    min-width: 1500px;
+}
+.row.content {
+    height: auto;
+}
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+@media screen and (max-width: 767px)
+{
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+.carousel-caption h3 {
+    color: #fff !important;
+    float:none;
+}
+#slides{
+    background-color: #f1f1f1 !important;
+}
+
+.carousel{
+    background-color: #f1f1f1 !important;
+}
+.carousel .item{
+    background-color: #f1f1f1;
+}
+.carousel p{
+    padding-right: 150px;
+    float:none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel .item img {
+    max-height: 300px;
+    min-width: auto;
+    margin: 0px;
+    float: left;
+    padding: 20px;
+}
